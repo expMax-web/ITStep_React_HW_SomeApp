@@ -1,0 +1,12 @@
+.ItemContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  align-items: center;
+}
+.titleItem {
+  font-size: 24px;
+}
+.titleValue {
+  font-size: 22px;
+}

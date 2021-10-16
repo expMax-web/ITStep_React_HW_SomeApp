@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { ItemInfo } from "./components/ItemInfo";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{ display: "flex", padding: "50px" }}>
+        <figure style={{ width: "500px" }}>
+          <img src="./izhevsk.jpg" style={{ width: "500px" }}></img>
+        </figure>
+        <div>
+          <ItemInfo title="Название города:" value="Ижевск" />
+          <ItemInfo title="Страна:" value="Россия" />
+          <ItemInfo title="Субъект Федерации:" value="Удмуртия" />
+          <ItemInfo title="Глава города:" value="Олег Бекмеметьев" />
+          <ItemInfo title="Основан:" value="1760 г." />
+          <ItemInfo title="Население:" value="646 т. чел." />
+        </div>
+      </div>
     </div>
   );
 }

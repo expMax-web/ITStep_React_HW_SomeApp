@@ -1,11 +1,9 @@
-import { FavoriteAlbumItem } from "./component/FavoriteAlbumItem";
-import poster from "./component/Meteora.jpg";
+import { FavoriteAlbumItem } from "./component/FavoriteAlbumItem/FavoriteAlbumItem";
 
 function App() {
   return (
     <div className="App">
       <FavoriteAlbumItem
-        poster={poster}
         name="Meteora"
         artist="Linkin Park"
         year="25 марта 2003"

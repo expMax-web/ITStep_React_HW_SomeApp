@@ -1,0 +1,14 @@
+.InfoItemContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.InfoItemDescription {
+  font-size: 24px;
+}
+
+.InfoItemValue {
+  font-size: 24px;
+  font-weight: bold;
+}

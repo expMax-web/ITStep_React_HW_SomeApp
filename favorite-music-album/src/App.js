@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { FavoriteAlbumItem } from "./component/FavoriteAlbumItem";
+import poster from "./component/Meteora.jpg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FavoriteAlbumItem
+        poster={poster}
+        name="Meteora"
+        artist="Linkin Park"
+        year="25 марта 2003"
+        producer="NRG Recordings"
+        about="Meteora — второй студийный альбом калифорнийской мультиплатиновой альтернативной рок-группы Linkin Park, впервые выпущенный 25 марта 2003 года. Альбом последовал за совместным проектом Reanimation, который содержал ремиксы с дебютного альбома Hybrid Theory. Примерно через год после выхода альбома Linkin Park выпустили синглы с Meteora, включая «Somewhere I Belong», «Faint», «Breaking The Habit» и «Numb». Трек «Lying from You» был выпущен в качестве промосингла."
+      />
     </div>
   );
 }

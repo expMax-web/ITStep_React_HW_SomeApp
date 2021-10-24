@@ -1,0 +1,15 @@
+.AboutContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.InfoItemDescription {
+  font-size: 24px;
+}
+
+.InfoAboutContent {
+  width: 100%;
+  font-size: 20px;
+  padding: 20px 0;
+}

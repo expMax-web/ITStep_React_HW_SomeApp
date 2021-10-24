@@ -1,4 +1,4 @@
-import { PersonalPage } from "./component/PersonalPage";
+import { PersonalPage } from "./pages/PersonalPage/PersonalPage";
 
 function App() {
   return (

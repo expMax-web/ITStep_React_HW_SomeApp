@@ -1,0 +1,18 @@
+.ImgContainer {
+  overflow: hidden;
+}
+
+.Img {
+  width: 600px;
+  height: 350px;
+}
+.ImgDescription {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  &_Green {
+    color: green;
+    font-size: 40px;
+  }
+}

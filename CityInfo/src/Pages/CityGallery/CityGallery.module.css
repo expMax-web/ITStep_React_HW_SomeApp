@@ -1,0 +1,13 @@
+.MainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 100px;
+}
+.FormContainer {
+  width: 600px;
+  display: block;
+  background-color: rgb(215, 216, 216);
+  padding: 20px 50px;
+  border-radius: 20px;
+}

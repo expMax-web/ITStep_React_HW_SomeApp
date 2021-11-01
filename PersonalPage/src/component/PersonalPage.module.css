@@ -1,0 +1,46 @@
+.Container {
+  display: flex;
+  padding: 40px;
+  width: 800px;
+  margin: 0 auto;
+  background-color: rgb(228, 231, 228);
+  border: 2px solid grey;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 8px rgba(34, 60, 80, 0.2);
+  flex-wrap: wrap;
+}
+.PosterContainer {
+  width: 30%;
+}
+.Poster {
+  width: 100%;
+}
+.InfoContainer {
+  width: 60%;
+}
+.InfoItemContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.InfoItemDescription {
+  font-size: 24px;
+}
+
+.InfoItemValue {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.AboutContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.InfoAboutContent {
+  width: 100%;
+  font-size: 20px;
+  padding: 20px 0;
+}

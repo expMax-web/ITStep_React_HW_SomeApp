@@ -1,0 +1,14 @@
+.Container {
+  display: flex;
+  padding: 40px;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(228, 231, 228);
+  border: 2px solid grey;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 8px rgba(34, 60, 80, 0.2);
+}
+
+.InfoContainer {
+  padding-top: 30px;
+}

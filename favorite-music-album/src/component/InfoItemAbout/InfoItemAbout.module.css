@@ -1,0 +1,13 @@
+.AboutContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.InfoItemDescription {
+  font-size: 24px;
+}
+
+.InfoAboutContent {
+  font-size: 20px;
+  padding: 20px 0;
+}

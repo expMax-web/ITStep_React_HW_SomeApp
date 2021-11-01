@@ -8,7 +8,32 @@
   font-size: 24px;
 }
 
-.InfoItemValue {
-  font-size: 24px;
+.InputItem {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.Input {
+  text-align: right;
+  padding-right: 20px;
+  font-size: 20px;
   font-weight: bold;
+  display: block;
+  border: none;
+  background-color: inherit;
+}
+
+.Input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px #f4f7fc inset;
+}
+
+.Input:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.LabelInput {
+  font-weight: 500;
+  width: 100%;
 }

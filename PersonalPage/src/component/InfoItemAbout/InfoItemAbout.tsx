@@ -4,16 +4,26 @@ import styles from "./InfoItemAbout.module.css";
 interface InfoItemAboutProps {
   description: string;
   value: string;
+  setState: React.Dispatch<React.SetStateAction<string>>;
 }
 
 export const InfoItemAbout: React.FC<InfoItemAboutProps> = ({
   description,
   value,
+  setState,
 }) => {
+  const HandleChanged = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setState(event.target.value);
+  };
+
   return (
     <div className={styles.AboutContainer}>
-      <span className={styles.InfoItemDescription}>{description}:</span>
-      <span className={styles.InfoAboutContent}>{value}</span>
+      <label className={styles.InfoItemDescription}>{description}:</label>
+      <textarea
+        className={styles.TextArea}
+        value={value}
+        onChange={HandleChanged}
+      ></textarea>
     </div>
   );
 };

@@ -18,29 +18,21 @@
 .InfoContainer {
   width: 60%;
 }
-.InfoItemContainer {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 0;
+
+.ResetButton {
+  padding: 10px 20px;
+  background-color: rgb(87, 87, 87);
+  color: white;
+  border-radius: 10px;
+  margin: 10px auto;
+  border: none;
+  font-size: 18px;
 }
 
-.InfoItemDescription {
-  font-size: 24px;
+.ResetButton:active {
+  background-color: rgb(139, 139, 139);
 }
 
-.InfoItemValue {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.AboutContainer {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.InfoAboutContent {
-  width: 100%;
-  font-size: 20px;
-  padding: 20px 0;
+.ResetButton:hover {
+  box-shadow: 0px 0px 14px 6px rgba(34, 60, 80, 0.2);
 }

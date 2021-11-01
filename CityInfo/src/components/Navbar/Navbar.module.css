@@ -1,0 +1,17 @@
+.NavContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  padding: 0 50px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.Link {
+  text-decoration: none;
+  color: black;
+}
+
+.Link:hover {
+  text-decoration: underline;
+}
